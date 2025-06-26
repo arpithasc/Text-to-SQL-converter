@@ -26,33 +26,6 @@ LangChain / OpenAI API  LLM-based SQL generation
 SQLite                  Sample database
 Streamlit               Web interface
 
-## 📊 Architecture Diagram
-+----------------+
-|  User Query    |
-| "Show all..."  |
-+-------+--------+
-        |
-        v
-+------------------------+
-| NLP Engine (spaCy/T5)  |
-+------------------------+
-        |
-        v
-+------------------------+
-| Intent & Entity Parser |
-+------------------------+
-        |
-        v
-+------------------------+
-| SQL Query Generator    |
-+------------------------+
-        |
-        v
-+------------------------+
-| SQL Output             |
-| SELECT ...             |
-+------------------------+
-
 ## 🔄 Flow Diagram
 
 START
